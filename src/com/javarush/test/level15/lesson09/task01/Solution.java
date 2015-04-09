@@ -10,18 +10,14 @@ import java.util.Map;
 public class Solution {
     public static Map<Double, String> labels = new HashMap<Double, String>();
 
-    static
-    {
-        Map labels = new HashMap<Object, Object>();
-        labels = new HashMap<Integer, Integer>();
-        labels = new HashMap<Byte, Integer>();
-        labels = new HashMap<Short, Integer>();
-        labels = new HashMap<Long, Integer>();
+    static {
+        labels.put(3.0, "dd");
+        labels.put(4.0, "ddn");
+        labels.put(5.0, "ddd");
+        labels.put(6.0, "dsd");
+        labels.put(7.0, "ddf");
 
     }
-
-
-
     public static void main(String[] args) {
         System.out.println(labels);
     }
