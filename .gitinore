@@ -1,0 +1,22 @@
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
